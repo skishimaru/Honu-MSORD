@@ -34,7 +34,7 @@ for (i in 1:length(robust$freq)){
 }
 head(encounter)
 
-#Calculate important qunatities
+#Calculate important quantities
 n.ind <- nrow(encounter) # number of individuals
 n.secondary <- c(2, 2, 4, 5, 2) # number of secondary occasions per primary occasion
 n.primary <- length(n.secondary) # number of primary occasions
